@@ -1,0 +1,76 @@
+{
+  "name": "Demo",
+  "projectId": "428312bd-82d6-446d-9a18-57d4e9220b96",
+  "description": "New Test Automation Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
+    "UiPath.Excel.Activities": "[2.23.1-preview]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.12.0.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": false,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e4e824be-f085-4edc-a026-6f18f90c0f16",
+        "executionTemplatePath": ".templates\\TestFramework.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6321a630-6c7a-4f5f-8a39-092050eb55f4",
+        "dataVariationFilePath": ".variations\\UITD1_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase\\TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
